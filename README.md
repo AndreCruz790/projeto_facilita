@@ -28,7 +28,8 @@ Este é o Projeto Facilita, ele tem o objetivo de facilitar o cálculo de compra
 
 #### 2.1.1.1 Adicionar Item à Compra
 - Solicitar o nome do item, seu preço e sua quantidade ao usuário;
-- Se os dados enviados pelo usuário estiverem corretos, serão adicionado à lista de compras.
+- Se os dados enviados pelo usuário estiverem corretos, serão adicionado à lista de compras;
+- Se o nome do item for o mesmo de um item já inserido na lista, o valor antigo será substituído pelo valor novo.
 
 #### 2.1.1.2 Ver a Lista de Compras
 - Só funciona se tiver no mínimo 1 item na lista de compras;
@@ -78,8 +79,9 @@ Este é o Projeto Facilita, ele tem o objetivo de facilitar o cálculo de compra
 
 #### 2.1.2.1 Adicionar Item à Compra
 - Solicitar o nome do item, seu preço e sua quantidade ao usuário;
-- Se os dados enviados pelo usuário estiverem corretos, serão adicionado à lista de compras.
-
+- Se os dados enviados pelo usuário estiverem corretos, serão adicionado à lista de compras;
+- Se o nome do item for o mesmo de um item já inserido na lista, o valor antigo será substituído pelo valor novo.
+- 
 #### 2.1.2.2 Ver a Lista de Compras
 - Só funciona se tiver no mínimo 1 item na lista de compras;
 - Opção de Ver do Mais Caro ao Mais Barato;
