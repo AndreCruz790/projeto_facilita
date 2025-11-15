@@ -1,6 +1,5 @@
 # projeto_pm_s2
-Projeto Multidisciplinar do 2º Semestre.
-Este é o Projeto Facilita, esse projeto tem como objetivo facilitar o cálculo de compras dos mais diversos tipos, como compras de mercado, por exemplo.
+Este é o Projeto Facilita, que tem como objetivo facilitar o cálculo de compras dos mais diversos tipos, como compras de mercado, por exemplo.
 
 # 1. Introdução
 - Dá boas vindas ao usuário;
