@@ -1,6 +1,6 @@
 # projeto_pm_s2
 Projeto Multidisciplinar do 2º Semestre.
-Este é o Projeto Facilita, ele tem o objetivo de facilitar o cálculo de compras dos mais diversos momentos, como compras de mercado, por exemplo.
+Este é o Projeto Facilita, criado pelo universitário André Zarcos, do curso Sistemas de Informação do 2º semeste. O projeto tem como objetivo facilitar o cálculo de compras dos mais diversos tipos, como compras de mercado, por exemplo.
 
 # 1. Introdução
 - Dá boas vindas ao usuário;
