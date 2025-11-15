@@ -6,7 +6,7 @@ Projeto Multidisciplinar do 2º Semestre.
 - Solicita um nome para ser identificado durante o funcionamento do Projeto;
 - Dá início ao Projeto.
 
-===================================================================================
+•===•===•===•===•
 
  # 2. Seção Principal
 - Opção de Calcular Compras;
@@ -65,7 +65,7 @@ Projeto Multidisciplinar do 2º Semestre.
 - Será agradecido ao usuário pelo o uso da funcionalidade de calcular compras, e perguntará ao usuário se ele deseja continuar na seção de Calcular Compras;
 - Se sim, voltará para a seção de Compra Livre, se não, voltará para a Seção Principal.
 
-===================================================================================
+•===•===•===•===•
 
 ### 2.1.2 Compra Limitada
 - Será solicitado ao usuário quanto de dinheiro será o limite para aquela compra, e a partir desse limite será decidido se haverá a compra ou não;
@@ -124,14 +124,14 @@ Projeto Multidisciplinar do 2º Semestre.
 - Encerra o cálculo de compras;
 - Mostra o tempo que o usuário ficou nessa Seção.
 
-===================================================================================
+•===•===•===•===•
 
 ## 2.2 Configuração do Usuário
 - Pergunta ao usuário se ele deseja mudar o nome inicialmente inserido;
 - Caso sim, será disponibilizado o meio de ser inserido um novo nome;
 - Caso não, o usuário retorna à Seção Principal do Projeto.
 
-===================================================================================
+•===•===•===•===•
 
 ## 2.3 Sair da Conta
 - Agradecimentos ao usuário por ele ter usado o Projeto;
