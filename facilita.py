@@ -469,6 +469,8 @@ def calculo_compras(): #Declarando a Função "calculo_compras"
               return ""                                                           #Retornando vazio, para não retornar "None" ao usuário
             else:
               print(f"\n→ Total Geral: {total_geral:.2f}\n")                      #Imprimindo o total da compra
+              troco = limite - total_geral                                        #Variável que receberá o troco da compra
+              print(f"→ Troco: R${limite:.2f} - R${total_geral:.2f} = R${troco:.2f}\n") #Imprimindo o troco da compra
               time.sleep(0.5)
               print("• Obrigado pela preferência de utilizar o nosso serviço!\n") #Agradecendo o usuário por usar o serviço do Projeto
               time.sleep(0.5)
