@@ -461,7 +461,7 @@ def calculo_compras(): #Declarando a Função "calculo_compras"
               print(f"{item_p}: R${preco:.2f}, ({quantidade}x) → Subtotal: R${subtotal:.2f}") #Imprimindo o subtotal de cada item presente na lista de compras
               time.sleep(0.5) 
             if total_geral >= limite: #Se o "total_geral" armazenar um valor maior ou igual ao armazenado em "limite":
-              print("- Você alcançou o limite de valor que tinha, refaça à lista de compras e tente novamente.\n") #Informando o usuário que o valor limite foi ultrapassado, e por isso a compra foi cancelada
+              print("- Você alcançou o limite de valor que tinha, refaça a lista de compras e tente novamente.\n") #Informando o usuário que o valor limite foi ultrapassado, e por isso a compra foi cancelada
               time.sleep(0.5)
               print(f"\n→ Total Geral: {total_geral:.2f}/{limite:.2f} ← Valor Limite\n") #Mostrando ao usuário o "total_geraç" em comparação com o "limite"
               time.sleep(0.5)
