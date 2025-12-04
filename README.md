@@ -115,6 +115,7 @@ Este é o Projeto Facilita, que tem como objetivo facilitar o cálculo de compra
 #### 2.1.2.4 Finalizar Compra
 - Se a compra for finalizada e o total geral ultrapassar o valor limite, a compra será cancelada;
 - Finalizará a compra, mostrando o total de cada item e o total geral da compra;
+- Mostrará também o troco da compra, subtraindo o valor limite permitido, inicialmente enviado pelo usuário, pelo total geral da compra;
 - Será agradecido ao usuário pelo o uso da funcionalidade de calcular compras, e perguntará ao usuário se ele deseja continuar na seção de Calcular Compras;
 - Será exibido o tempo total de uso da funcionalidade de calcular compras;
 - Se sim, voltará para a seção de Compra Livre, se não, voltará para a Seção Principal.
