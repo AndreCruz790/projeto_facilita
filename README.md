@@ -1,4 +1,4 @@
-# projeto_pm_s2
+# projeto_facilita
 Este é o Projeto Facilita, que tem como objetivo facilitar o cálculo de compras dos mais diversos tipos, como compras de mercado, por exemplo. Como funções destaques do código, há: Ordenação por Seleção (reordenar listas), Hash (endereçamento de lista) e Notação Big O (tempo de execução).
 
 # 1. Introdução
