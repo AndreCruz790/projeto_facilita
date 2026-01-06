@@ -61,7 +61,7 @@ Este é o Projeto Facilita, que tem como objetivo facilitar o cálculo de compra
 
 #### • Finalizar Compra
 - Finalizará a compra, mostrando o total de cada item e o total geral da compra;
-- Será agradecido ao usuário pelo o uso da funcionalidade de calcular compras, e perguntará ao usuário se ele deseja continuar na seção de Calcular Compras;
+- Será agradecido o usuário pelo o uso da funcionalidade de calcular compras, e perguntará ao usuário se ele deseja continuar na seção de Calcular Compras;
 - Se sim, voltará para a seção de Compra Livre, se não, voltará para a Seção Principal.
 
 ### 2.1.2 Compra Limitada
@@ -72,47 +72,14 @@ Este é o Projeto Facilita, que tem como objetivo facilitar o cálculo de compra
 - Opção de Remover Item do Carrinho
 - Opção de Finalizar a Compra.
 
-#### • Adicionar Item à Compra
-- Solicitar o nome do item, seu preço e sua quantidade ao usuário;
-- Se os dados enviados pelo usuário estiverem corretos, serão adicionado à lista de compras;
-- Se o nome do item for o mesmo de um item já inserido na lista, o valor antigo será substituído pelo valor novo.
-- 
-#### • Ver a Lista de Compras
-- Só funciona se tiver no mínimo 1 item na lista de compras;
-- Opção de Ver do Mais Caro ao Mais Barato;
-- Opção de Ver do Mais Barato ao Mais Caro;
-- Opção de Ver Item da Lista;
-- Opção de Ver Total Atual da Lista;
-- Opção de Não Quero Consultar Agora.
-
-##### • Ver do Mais Caro ao Mais Barato
-- Vai mostrar a lista de compras começando pelo item mais caro, até chegar no item mais barato (Ordenação por Seleção).
-
-##### • Ver do Mais Barato ao Mais Caro
-- Vai mostrar a lista de compras começando pelo item mais barato, até chegar no item mais caro (Ordenação por Seleção).
-
-##### • Ver Item da Lista
-- Solicitará ao usuário enviar o nome do item que ele deseja consultar (com a lista de compras geral presente para facilitar a consulta);
-- Se o nome do item inserido pelo usuário estiver presente na lista, será apresentado ao cliente os aspectos desse item, como o preço e a quantidade (Hash);
-- Se não estiver na lista de compras o nome do item inserido pelo usuário, será informado que o item solicitado não foi encontrado.
-
-##### • Ver Total Atual da Lista
-- Mostrará o total de cada item individualmente, multiplicando o preço pela quantidade;
-- Retornará no final o total atual da lista de compra, sendo essa a soma de todos os subtotais de cada item presente na lista de compras.
-
-##### • Não Quero Consultar Agora
-- Retornará para a Seção de Compra Livre.
-
-#### • Remover Item do Carrinho
-- Solicitará ao usuário enviar o nome do item que ele deseja que seja removido da lista de compras;
-- Se o nome do item enviado pelo usuário estiver presente na lista de compras, o item será removido da lista;
-- Se não estiver presente na lista o nome do item enviado pelo usuário, será informado que o item solicitado não foi encontrado.
+#### • Adicionar Item à Compra, Ver a Lista de Compras (e suas sub-opções) e Remover Item do Carrinho
+- Tais opções têm as mesmas funções que as presentes na Compra Livre.
 
 #### • Finalizar Compra
 - Se a compra for finalizada e o total geral ultrapassar o valor limite, a compra será cancelada;
-- Finalizará a compra, mostrando o total de cada item e o total geral da compra;
-- Mostrará também o troco da compra, subtraindo o valor limite permitido, inicialmente enviado pelo usuário, pelo total geral da compra;
-- Será agradecido ao usuário pelo o uso da funcionalidade de calcular compras, e perguntará ao usuário se ele deseja continuar na seção de Calcular Compras;
+- Caso o valor limite não seja ultrapassado, a compra será finalizada, mostrando o total de cada item e o total geral da compra;
+- Mostrará também o troco da compra, subtraindo o valor limite pelo total geral da compra;
+- Será agradecido o usuário pelo o uso da funcionalidade de calcular compras, e perguntará ao usuário se ele deseja continuar na seção de Calcular Compras;
 - Será exibido o tempo total de uso da funcionalidade de calcular compras;
 - Se sim, voltará para a seção de Compra Livre, se não, voltará para a Seção Principal.
 
