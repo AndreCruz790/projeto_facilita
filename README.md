@@ -61,8 +61,7 @@ Este é o <ins>__Projeto Facilita__</ins>, que tem como objetivo facilitar o cá
 
 #### • Finalizar Compra
 - Finalizará a compra, mostrando o total de cada item e o total geral da compra;
-- Será agradecido o usuário pelo o uso da funcionalidade de calcular compras, e perguntará ao usuário se ele deseja continuar na seção de Calcular Compras;
-- Se sim, voltará para a seção de Compra Livre, se não, voltará para a Seção Principal.
+- Será agradecido o usuário pelo o uso da funcionalidade de calcular compras, será apresentado ao usuário o tempo de execução do cálculo, e voltará para a Seção Principal.
 
 ### 2.1.2 Compra Limitada
 - Será solicitado ao usuário quanto de dinheiro será o limite para aquela compra, e a partir desse limite será decidido se haverá a compra ou não;
@@ -79,9 +78,8 @@ Este é o <ins>__Projeto Facilita__</ins>, que tem como objetivo facilitar o cá
 - Se a compra for finalizada e o total geral ultrapassar o valor limite, a compra será cancelada;
 - Caso o valor limite não seja ultrapassado, a compra será finalizada, mostrando o total de cada item e o total geral da compra;
 - Mostrará também o troco da compra, subtraindo o valor limite pelo total geral da compra;
-- Será agradecido o usuário pelo o uso da funcionalidade de calcular compras, e perguntará ao usuário se ele deseja continuar na seção de Calcular Compras;
+- Será agradecido o usuário pelo o uso da funcionalidade de calcular compras, será apresentado ao usuário o tempo de execução do cálculo, e voltará para a Seção Principal.
 - Será exibido o tempo total de uso da funcionalidade de calcular compras;
-- Se sim, voltará para a seção de Compra Livre, se não, voltará para a Seção Principal.
 
 ### 2.1.3 Dúvidas Frequentes
 - Exibe todas as funcionalidades disponível no Cálculo de Compras.
@@ -99,3 +97,16 @@ Este é o <ins>__Projeto Facilita__</ins>, que tem como objetivo facilitar o cá
 - Agradecimentos ao usuário por ele ter usado o Projeto;
 - Informará o tempo total de uso do Projeto;
 - Informa o usuário o tempo total que ele usou o Projeto.
+
+# 3. Exemplos Práticos
+## 3.1 Introdução
+![Introdução](assets/1.introduction.png)
+
+## 3.2 Seção Principal
+![SeçãoPrincipal](assets/2.main-section.png)
+
+## 3.3 Calcular Compras
+![CalcularCompras](assets/3.calculate-purchases.png)
+
+## 3.4 Sair da Conta
+![ExitAccount](assets/4.exit-account.png)
